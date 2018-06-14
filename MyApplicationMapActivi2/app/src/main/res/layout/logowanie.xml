@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:layout_weight="1"
+        android:background="#9CC783"
+        android:text="Dalej"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:width="200dp"
+        android:height="150dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextHaslo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editTextLogin"
+        android:layout_below="@+id/editTextLogin"
+        android:width="200dp"
+        android:height="150dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <CheckBox
+
+        android:id="@+id/cbShowPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_below="@+id/editTextLogin"
+        android:layout_marginTop="61dp"
+        android:text="Pokaz hasło" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextHaslo"
+        android:layout_below="@+id/cbShowPwd"
+        android:layout_marginTop="98dp"
+        android:background="#466caa"
+        android:text="Wlasny"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignEnd="@+id/editTextHaslo"
+        android:background="#F8A73D"
+        android:text="Veturilo"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

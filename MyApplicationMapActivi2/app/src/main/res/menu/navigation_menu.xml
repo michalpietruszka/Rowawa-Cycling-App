@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_nawiguj"
+        android:title="Nawiguj" />
+    <item
+        android:id="@+id/nav_Konto"
+        android:title="Moje konto" />
+    <item
+        android:id="@+id/nav_PokazPoi"
+        android:title="Pokaż POI" />
+    <item
+        android:id="@+id/nav_stat"
+        android:title="Statystyki" />
+    <item
+        android:id="@+id/nav_ulubione"
+        android:title="Ulubione" />
+    <item
+        android:id="@+id/nav_info"
+        android:title="Informacje" />
+    <item
+        android:id="@+id/nav_trasy"
+        android:title="Pokaż/usuń trasy" />
+</menu>
